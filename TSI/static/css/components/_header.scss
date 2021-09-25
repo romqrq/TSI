@@ -1,0 +1,31 @@
+// Header
+
+.navbar-brand {
+    font-weight: 900;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+.navbar-toggler {
+    color: black;
+}
+.navbar-collapse {
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    margin-top: 0.7rem;
+    text-align: center;
+    border-radius: 0.35rem;
+    box-shadow: $light-box-shadow;
+
+    
+    li {
+        font-family: "Nunito Sans", sans-serif;
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: inherit;
+
+        a{
+            color: black !important;
+        }
+    }
+}

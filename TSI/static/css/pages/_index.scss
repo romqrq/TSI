@@ -1,0 +1,32 @@
+.index-callout-container {
+    background-color: black;
+    margin-top: 4rem;
+    height: 80vh;
+    padding: 0;
+    color: white;
+
+    img {
+        position: absolute;
+        height: 80vh;
+        opacity: 0.7;
+    }
+
+}
+.callout-text {
+    margin: 2rem 0 0;
+
+    .fa-wifi{
+        font-size: 8rem;
+    }
+}
+.callout-header {
+    font-weight: 800;
+    text-align: center;
+}
+.callout-button {
+    height: 4rem;
+    width: 8rem;
+    margin: 1rem 0;
+    background-color: $honey-yellow;
+    box-shadow: $light-box-shadow;
+}
